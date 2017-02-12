@@ -46,3 +46,18 @@ You use intercooler.js in your Django templates like this::
     <script src="{% static "intercoolerjs/js/jquery.js" %}"></script>
     <!-- this is the minified intercooler.js -->
     <script src="{% static "intercoolerjs/js/intercooler.min.js" %}"></script>
+    
+Version numbers
+---------------
+
+We are keeping the intercooler.js version number, so that intercooler.js releases can 
+easily be spotted in django-intercoolerjs. But, since we also need a version number, an 
+other dot number is added.
+
+If intercooler.js version 1.0.3. is the current release, django-intercoolerjs will have
+the version number 1.0.3.0. This last number will be incremented with every release of
+django-intercoolerjs.
+
+If intercooler.js version 1.0.4 is being released, we keep the last django-intercooler 
+version number, so that features or bugfixes in django-intercoolerjs can be recognized 
+easier: 1.0.3.14 ==> 1.0.4.14
