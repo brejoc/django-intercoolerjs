@@ -1,6 +1,7 @@
 Django intercooler.js
 =====================
 
+django-intercooler.js is just a Django wrapper for `intercooler.js <http://intercoolerjs.org/>`_.
 
 Requirements
 ------------
