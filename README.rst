@@ -47,6 +47,9 @@ You use intercooler.js in your Django templates like this::
     <script src="{% static "intercoolerjs/js/jquery.js" %}"></script>
     <!-- this is the minified intercooler.js -->
     <script src="{% static "intercoolerjs/js/intercooler.min.js" %}"></script>
+
+Since version 1.1.0 of intercooler.js it is also possible to use zepto as an alternative 
+to jQuery. zepto is not yet bundled with django-intercoolerjs.
     
 Version numbers
 ---------------
