@@ -65,3 +65,10 @@ django-intercoolerjs.
 If intercooler.js version 1.0.4 is being released, we keep the last django-intercooler 
 version number, so that features or bugfixes in django-intercoolerjs can be recognized 
 easier: 1.0.3.14 ==> 1.0.4.14
+
+
+Demo
+----
+
+A demo project can be found in the ``'demo'`` folder along with a
+README.
