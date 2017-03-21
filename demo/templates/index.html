@@ -1,0 +1,14 @@
+{% load static %}
+<html>
+    <head>
+        <title>Intercooler counter demo</title>
+        <script src="{% static "intercoolerjs/js/jquery.js" %}"></script>
+        <script src="{% static "intercoolerjs/js/intercooler.min.js" %}"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="target">Counter: {{ value }}</div>
+        </div>
+        <button ic-get-from="{% url 'index' %}" ic-target="#wrapper" ic-select-from-response="#wrapper">increment</button>
+    </body>
+</html>
