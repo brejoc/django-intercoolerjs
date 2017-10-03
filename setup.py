@@ -5,8 +5,11 @@ from setuptools import setup, find_packages
 
 repo_path = os.path.abspath(os.path.dirname(__file__))
 
-with open(os.path.join(repo_path, 'README.rst'), encoding='utf-8') as f:
-    long_description = f.read()
+try:
+    import pypandoc
+    long_description = pypandoc.convert('README.md', 'rst')
+except (ImportError, OSError):
+    long_description = open('README.md').read()
 
 with open(os.path.join(repo_path, 'requirements.txt')) as f:
     requirements = f.read().splitlines()
