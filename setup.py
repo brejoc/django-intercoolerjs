@@ -16,14 +16,14 @@ with open(os.path.join(repo_path, 'requirements.txt')) as f:
 
 setup(
     name='django-intercoolerjs',
-    version='1.1.2.0',
+    version='1.2.0.0',
     url="https://github.com/brejoc/django-intercoolerjs",
     description='Django wrapper for intercooler.js - AJAX With Attributes: There is no need to be complex.',
     long_description=long_description,
     author='Jochen Breuer',
     author_email='brejoc@gmail.com',
     license='MIT',
-    keywords='django jquery zepto staticfiles intercoolerjs'.split(),
+    keywords='django jquery staticfiles intercoolerjs'.split(),
     platforms='any',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
