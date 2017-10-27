@@ -16,7 +16,7 @@ with open(os.path.join(repo_path, 'requirements.txt')) as f:
 
 setup(
     name='django-intercoolerjs',
-    version='1.2.0.0',
+    version='1.2.0.1',
     url="https://github.com/brejoc/django-intercoolerjs",
     description='Django wrapper for intercooler.js - AJAX With Attributes: There is no need to be complex.',
     long_description=long_description,
