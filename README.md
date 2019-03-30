@@ -61,11 +61,6 @@ If intercooler.js version 1.0.3. is the current release, django-intercoolerjs wi
 the version number 1.0.3.0. This last number will be incremented with every release of
 django-intercoolerjs.
 
-If intercooler.js version 1.0.4 is being released, we keep the last django-intercooler
-version number, so that features or bugfixes in django-intercoolerjs can be recognized
-easier: 1.0.3.14 ==> 1.0.4.14
-
-
 Demo
 ----
 
