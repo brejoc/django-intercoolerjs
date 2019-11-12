@@ -5,11 +5,8 @@ from setuptools import setup, find_packages
 
 repo_path = os.path.abspath(os.path.dirname(__file__))
 
-try:
-    import pypandoc
-    long_description = pypandoc.convert('README.md', 'rst')
-except (ImportError, OSError):
-    long_description = open('README.md').read()
+with open('README.md', encoding='utf-8') as f:
+    long_description = f.read()
 
 with open(os.path.join(repo_path, 'requirements.txt')) as f:
     requirements = f.read().splitlines()
@@ -20,6 +17,7 @@ setup(
     url="https://github.com/brejoc/django-intercoolerjs",
     description='Django wrapper for intercooler.js - AJAX With Attributes: There is no need to be complex.',
     long_description=long_description,
+    long_description_content_type='text/markdown',
     author='Jochen Breuer',
     author_email='brejoc@gmail.com',
     license='MIT',
